@@ -1,0 +1,138 @@
+html,body {
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: rgb(57, 72, 99);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    background-color: rgb(243, 243, 243);
+    border: 0;
+    padding: 10px 16px 9px 15.5px;
+    margin-right: 8px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom, rgb(245, 245, 245), rgb(241, 241, 241));
+}
+
+button:hover {
+    border: 1px solid rgb(189, 189, 189);
+    color: rgb(34, 34, 34);
+    background-color: rgb(248, 248, 248);
+    background-image: linear-gradient(to bottom, rgb(248, 248, 248), rgb(239, 239, 239));
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    right: 0px;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+footer ul {
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer ul li a {
+    color: rgb(95, 95, 95);
+    position: relative;
+    top: 10px;
+}
+
+.footer-left {
+    display: inline;
+    padding-left: 30px;
+}
+
+.footer-left li a {
+    padding-right: 23px;
+}
+
+.footer-right {
+    float: right;
+    padding-right: 30px;
+}
+
+.footer-right li a {
+    padding-left: 23px;
+}
+
+
+.navbar-left {
+    display: inline;
+}
+
+.navbar-left li {
+    position: relative;
+    top: 21px;
+    padding: 0px 0px 0px 17px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-right li {
+    position: relative;
+    right: 11px;
+    padding: 0px 17px 0px 0px;
+}
+
+.search-bar {
+    padding-top: 22px;
+    padding-left: 32px;
+}
+
+.search-buttons {
+    padding-top: 31px;
+    padding-left: 6px;
+}
+
+
+#google-apps {
+    top: 5px;
+    padding-right: 21px;
+}
+
+#Sgoogle-apps a:hover {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("images/google-apps.png");
+}
+
+#store-nav{
+    padding-left: 14px;
+
