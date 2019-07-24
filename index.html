@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="main.css">
-    
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/s2/favicons?domain=www.google.com"> -->
     <title>Google</title>
 </head>
 
@@ -46,23 +46,30 @@
 
     <div id="center">
        <div id="logo">
-           <img alt="Google" id="hplogo" src="/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" srcset="/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" style="padding-top:109px" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" data-atf="1" data-iml="1563899877627" width="272" height="92">
+           <!-- <img alt="Google" id="hplogo" src="/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" srcset="/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" style="padding-top:109px" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" data-atf="1" data-iml="1563899877627" width="272" height="92"> -->
+           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
         </div>
     </div>
 
-    <div id="searchform">
+    <div id="search">
             <form action="/search" method="GET" style="overflow: visible" name="search" role="search">
-                <div class="search-box-outline">
-                    <input type="text" name="search-input" maxlength="2048" title="Search">
-                    <span class="voice-search"></span>
+                <div class="search-bar">
+                    <input id="search-box" type=text name=q size="32" id=q>
+                    <img id="voice" src="images/voice-search.png">
+                    <input type="hidden" name="ie" value="utf-8">
+                    <input type="hidden" name="oe" value="utf-8">
                 </div>
+    
                 <div class="search-buttons">
                     <!-- <input type="submit" value="Google Search">
                     <input type="submit" value="I'm Feeling Lucky"> -->
                     <button type="submit">Google Search</button>
                     <button type="button" id="lucky-button">I'm Feeling Lucky</button>
-    
+                    <!-- <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" type="submit" data-ved="0ahUKEwjf8_OJj8zjAhUOjVkKHV-aD00Q4dUDCAg">
+                    <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck"> -->
+
                 </div>
+                <div class="mother-tongue">Google offered in: <a class="tongue-find" href="#">Français</a> <a class="tongue-find" href="#">English</a></div>
             </form>
     </div> 
 
@@ -74,6 +81,9 @@
                     </li>
                     <li>
                         <a href="https://www.google.com/services/">Business</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/search/howsearchworks/">How search works</a>
                     </li>
                 </div>
                 <div class="footer-right">
