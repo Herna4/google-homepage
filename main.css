@@ -203,7 +203,7 @@ footer ul li a {
 
 #center {
     /* text-align: -webkit-center; */
-    padding-top: 203px;
+    padding-top: 125px;
     text-align: center;
    
 }
@@ -223,10 +223,17 @@ footer ul li a {
 #voice-search {
     position: relative;
     display: inline-block;
-    top: 6px;
-    right: 41px;
+    top: 4px;
+    right: 40px;
+    /* background: url('//www.gstatic.com/inputtools/images/tia.png') no-repeat center; */
+    /* height: 24px;
+    width: 24px;
+    vertical-align: middle; */
 }
 
+#voice-search img {
+    float: right; width: 40px; 
+}
 
 #search-box {
     display: inline-block;
